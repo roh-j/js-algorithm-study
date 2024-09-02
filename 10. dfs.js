@@ -13,6 +13,7 @@ const graph = {
     }
 
     visited.add(here);
+
     graph[here].forEach((element) => {
       solution(element, visited);
     });
